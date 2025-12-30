@@ -1,77 +1,144 @@
-# Password Cracking & Information Analysis using CrackStation
+Password Cracking & Information Analysis using CrackStation
+Overview
 
-## Overview
-This project demonstrates password cracking and hash analysis using **CrackStation**, a widely used online cybersecurity tool for analyzing weak password hashes.
+This project demonstrates password cracking and hash analysis using CrackStation, a widely used online password auditing and hash analysis tool in cybersecurity education. The experiment focuses on understanding how weak password hashing algorithms and predictable passwords can be compromised using dictionary-based and lookup-table techniques.
 
-The objective of this project is to identify weak passwords by cracking **MD5 hashed values** using dictionary and lookup-based techniques in a safe and ethical manner.
+The project highlights real-world risks associated with insecure password practices and emphasizes the importance of modern, secure hashing mechanisms.
 
----
+Objectives
 
-## Tools Used
-- CrackStation (Online Password Hash Cracker)
-- Web Browser
-- Windows OS
+To understand the concept of password hashing and hash-based authentication
 
----
+To analyze how weak password hashes can be cracked using publicly available tools
 
-## Hash Algorithm Used
-MD5
+To demonstrate dictionary-based and lookup-table password cracking methods
 
----
+To evaluate the security weaknesses of legacy hashing algorithms like MD5
 
-## Method Used
-Dictionary-based / Lookup-table password cracking
+Tools & Environment Used
 
----
+CrackStation – Online Password Hash Cracking Tool
 
-## Target
-Sample MD5 password hashes  
-(Educational and intentionally weak password dataset)
+Web Browser (Google Chrome / Edge)
 
----
+Operating System – Windows
 
-## Results Summary
-- **Hash Type:** MD5  
-- **Passwords Cracked Successfully:**  
-  - `password`  
-  - `abc123`  
-- **Cracking Method:** Dictionary / Lookup-based attack  
-- **Result Status:** Exact matches highlighted in green  
+Hash Algorithm Used
 
----
+MD5 (Message Digest Algorithm 5)
 
-## Screenshots
+MD5 is a fast hashing algorithm that is now considered cryptographically broken and unsuitable for secure password storage due to its vulnerability to pre-computed attacks and hash collisions.
 
-### Hashes Entered
-![Hashes Input](Screenshot%202025-12-30%20110351.png)
+Cracking Methodology
 
-### Cracked Output
-![Cracked Result](Screenshot%202025-12-30%20110904.png)
+Dictionary-based attack
 
-### Full Page View
-![Full Tool View](Screenshot%202025-12-30%20110616.png)
+Lookup-table / Precomputed hash matching
 
----
+CrackStation uses massive precomputed hash tables generated from:
 
-## Video Demo
+Common password dictionaries
 
-🎥 Click the link below to watch the demonstration video:
+Previously leaked password databases
 
-[▶ Watch Video Demo](video/demo_video.mp4)
+Real-world human password patterns
 
----
+This allows rapid identification of weak passwords from unsalted hashes.
 
-## Ethical Consideration
-All password hashes used in this project were **sample and non-sensitive hashes** created only for academic purposes.  
-No real user data or unauthorized systems were targeted.
+Target Dataset
 
----
+Sample MD5 password hashes
 
-## Conclusion
-This project proves that **MD5 is a weak and insecure hashing algorithm** for password storage.  
-Weak passwords hashed using MD5 can be easily cracked using publicly available tools, highlighting the need for strong passwords and secure hashing algorithms such as bcrypt or SHA-256.
+Educational and intentionally weak passwords
 
----
+No real user credentials were used
 
+The hashes were manually generated from commonly used passwords to simulate insecure password storage scenarios.
+
+Results Summary
+
+Hash Type Tested: MD5
+
+Passwords Successfully Cracked:
+
+password
+
+abc123
+
+Cracking Technique: Dictionary / Lookup-based attack
+
+Result Status:
+
+Exact matches highlighted in green, indicating successful password recovery
+
+These results confirm that weak passwords combined with insecure hashing algorithms can be cracked almost instantly.
+
+Screenshots Included
+
+Hashes entered into CrackStation
+
+Hash input interface
+
+Cracked password output
+
+Full CrackStation tool interface view
+
+(These screenshots serve as visual proof of the cracking process and results.)
+
+Video Demonstration
+
+🎥 Project Demonstration Video
+
+▶ Watch Video Demo
+(The video shows the complete workflow from hash input to cracked output.)
+
+Security & Information Analysis
+
+This experiment demonstrates that:
+
+MD5 hashes are vulnerable to precomputed attacks
+
+Weak passwords dramatically reduce system security
+
+Unsalted hashes can be cracked within seconds
+
+Attackers do not need advanced tools to exploit poor password practices
+
+The project reinforces the importance of:
+
+Using strong, unpredictable passwords
+
+Applying salting techniques
+
+Implementing modern password hashing algorithms
+
+Ethical Considerations
+
+All hashes used were artificially created for academic purposes
+
+No real user data, personal credentials, or live systems were involved
+
+The project strictly follows ethical hacking and responsible disclosure principles
+
+Conclusion
+
+This project clearly demonstrates that MD5 is an insecure hashing algorithm for password storage. Weak passwords hashed using MD5 can be easily cracked using publicly available tools such as CrackStation.
+
+The findings emphasize the necessity of using secure hashing algorithms like:
+
+bcrypt
+
+PBKDF2
+
+Argon2
+
+SHA-256 (with proper salting and iterations)
+
+Strong password policies combined with secure hashing mechanisms are essential to protect systems from credential-based attacks.
+
+Disclaimer
+
+This project is strictly for educational and academic purposes only.
+Any misuse of the demonstrated techniques for unauthorized access or malicious activity is illegal and unethical.
 ## Disclaimer
 This project is strictly for **educational and academic purposes only**.
