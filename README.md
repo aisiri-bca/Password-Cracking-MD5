@@ -45,10 +45,21 @@ CrackStation uses large precomputed lookup tables and dictionary-based attacks t
   - Red: Not found
 
 ## Screenshots
-The following screenshots are included in this project:
-- Hashes entered into CrackStation
-- Cracked password results
-- Full CrackStation tool interface
+
+### Hashes Entered into CrackStation
+![Hashes Entered](Screenshot 2025-12-30 110351.png)
+
+### Cracked Password Results
+![Cracked Results](Screenshot 2025-12-30 193639.png)
+
+### Full CrackStation Tool Interface
+![CrackStation Interface](Screenshot 2025-12-30 201015.png)
+
+## Video Demonstration
+
+🎥 **Project Demonstration Video**
+
+[Click here to watch the screen recording](Screen Recording 2025-12-30 195331.mp4)
 
 ## Security Analysis
 This experiment clearly demonstrates that:
