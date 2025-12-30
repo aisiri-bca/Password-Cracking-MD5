@@ -41,26 +41,20 @@ Sample MD5 password hashes
 ---
 
 ## Screenshots
-- Hashes entered into the CrackStation input box  (Screenshot 2025-12-30 110351)
-- Cracked output displaying hash type and recovered passwords  
-- Full page view showing the CrackStation tool  
-
-*(Screenshots are included in the repository for verification.)*
-## Screenshots
 
 ### Hashes Entered
-![Hashes Input](Screenshot 2025-12-30 110351)
+![Hashes Input](Screenshot 2025-12-30 110351) 
 
 ### Cracked Output
-![Cracked Result](screenshots/output.png)
+![Cracked Result](Screenshot 2025-12-30 110904)
 
 ### Full Page View
-![Full Tool View](screenshots/full.png)
+![Full Tool View](Screenshot 2025-12-30 110616)
 
 ---
 
 ## Video Demo
-A short demonstration video of the password cracking process is included in the repository (optional).
+A short demonstration video of the password cracking process is included in the repository (Screen Recording 2025-12-30 113244).
 
 ---
 
