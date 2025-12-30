@@ -43,13 +43,13 @@ Sample MD5 password hashes
 ## Screenshots
 
 ### Hashes Entered
-![Hashes Input](Screenshot 2025-12-30 110351) 
+![Hashes Input](Screenshot%202025-12-30%20110351.png)
 
 ### Cracked Output
-![Cracked Result](Screenshot 2025-12-30 110904)
+![Cracked Result](Screenshot%202025-12-30%20110904.png)
 
 ### Full Page View
-![Full Tool View](Screenshot 2025-12-30 110616)
+![Full Tool View](Screenshot%202025-12-30%20110616.png)
 
 ---
 
