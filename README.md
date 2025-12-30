@@ -47,19 +47,19 @@ CrackStation uses large precomputed lookup tables and dictionary-based attacks t
 ## Screenshots
 
 ### Hashes Entered into CrackStation
-![Hashes Entered](Screenshot 2025-12-30 110351.png)
+![Hashes Input](hashes-input.png)
 
 ### Cracked Password Results
-![Cracked Results](Screenshot 2025-12-30 193639.png)
+![Cracked Output](cracked-results.png)
 
 ### Full CrackStation Tool Interface
-![CrackStation Interface](Screenshot 2025-12-30 201015.png)
+![Full Tool View](full-tool-view.png)
+
+---
 
 ## Video Demonstration
 
-🎥 **Project Demonstration Video**
-
-[Click here to watch the screen recording](Screen Recording 2025-12-30 195331.mp4)
+▶️ [Watch the Project Demo Video](crackstation-demo.mp4)
 
 ## Security Analysis
 This experiment clearly demonstrates that:
