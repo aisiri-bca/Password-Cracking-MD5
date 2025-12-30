@@ -54,7 +54,10 @@ Sample MD5 password hashes
 ---
 
 ## Video Demo
-A short demonstration video of the password cracking process is included in the repository (Screen Recording 2025-12-30 113244).
+
+🎥 Click the link below to watch the demonstration video:
+
+[▶ Watch Video Demo](video/demo_video.mp4)
 
 ---
 
